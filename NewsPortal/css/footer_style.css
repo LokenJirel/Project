@@ -1,0 +1,17 @@
+footer{
+    width: 100%;
+    display: flex;
+    gap: 1rem;
+    background-color: var(--bg-secondary);
+}
+
+p a{
+    color: var(--text-primary);
+}
+
+.row li{
+    list-style: none;
+}
+.row li a{
+    color: var(--text-primary);
+}
