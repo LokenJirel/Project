@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sastodeal</title>
+    <link rel="icon" href="./images/logo.ico">
+    <!-- css -->
+    <style>
+        @import url(./css/base.css);
+        @import url(./css/header_style.css);
+        @import url(./css/nav_style.css);
+        @import url(./css/content_style.css);
+        @import url(./css/footer_style.css);
+        /* google font */
+        @import url('https://fonts.googleapis.com/css2?family=DynaPuff&display=swap');
+    </style>
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    
+    <!-- main head with logo and search bar -->
+    <header>
+        <div class="header-item">
+            <a href="index.html"><img src="./images/logo.png" alt=""></a>
+        </div>
+        <div class="header-item">
+            <form action="" class="search-bar">
+                <input type="text" placeholder="Search...">
+                <button type="submit"><i class="fa fa-search"></i></button>
+            </form>
+        </div>
+        <div class="header-item log">
+            <div class="log-item">
+                <a href="login.html"><i class="fa fa-user"></i></a>
+                <a>
+                    <h6>My Account</h6>
+                </a>
+            </div>
+            <div class="log-item">
+                <a href="#"><i class="fa fa-cart-shopping"></i></a>
+                <a>
+                    <h6>My Cart</h6>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- to browse through products -->
+    <nav>
+        <div class="navbar">
+            <div class="nav-item">
+                <div class="dropdown">
+                    <a href="#">Men's Fashion&nbsp;<i class="fa fa-chevron-down"></i></a>
+                    <div class="dropdown-content card">
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                    </div>
+                </div>
+            </div>
+            <div class="nav-item">
+                <div class="dropdown">
+                    <a href="#">Men's Fashion&nbsp;<i class="fa fa-chevron-down"></i></a>
+                    <div class="dropdown-content card">
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                    </div>
+                </div>
+            </div>
+            <div class="nav-item">
+                <div class="dropdown">
+                    <a href="#">Women's Fashion&nbsp;<i class="fa fa-chevron-down"></i></a>
+                    <div class="dropdown-content card">
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                    </div>
+                </div>
+            </div>
+            <div class="nav-item">
+                <div class="dropdown">
+                    <a href="#">Kids' Fashion&nbsp;<i class="fa fa-chevron-down"></i></a>
+                    <div class="dropdown-content card">
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                    </div>
+                </div>
+            </div>
+            <div class="nav-item">
+                <div class="dropdown">
+                    <a href="#">Books&nbsp;<i class="fa fa-chevron-down"></i></a>
+                    <div class="dropdown-content card">
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- product cards showcase -->
+    <main>
+        <div class="banner">
+            <div class="banner-img">
+                <div class="banner-txt">
+                    <a href="product_display.html"><button>Shop Now</button></a>
+                </div>
+            </div>
+        </div>
+        <div class="service">
+            <div class="col">
+                <i class="fa fa-truck"></i>
+                &nbsp;
+                <div class="col-txt">
+                    <h4>Free Shipping</h4>
+                    <p>Order over Rs.1000</p>
+                </div>
+            </div>
+            <div class="col">
+                <i class="fa fa-arrows-rotate"></i>
+                &nbsp;
+                <div class="col-txt">
+                    <h4>Free Returns</h4>
+                    <p>Within 7 Days</p>
+                </div>
+            </div>
+            <div class="col">
+                <i class="fa fa-lock"></i>
+                &nbsp;
+                <div class="col-txt">
+                    <h4>100% Secure</h4>
+                    <p>Payment Online</p>
+                </div>
+            </div>
+            <div class="col">
+                <i class="fa fa-tag"></i>
+                &nbsp;
+                <div class="col-txt">
+                    <h4>Best Price</h4>
+                    <p>Guaranted</p>
+                </div>
+            </div>
+        </div>
+        <div class="showcase">
+            <div class="showcase-nav">
+                <a href="#feature">Featured Products</a>
+                <a href="#sale">On Sale</a>
+                <a href="#category">Categories</a>
+                <a href="#for-you">Just For You</a>
+            </div>
+            <section id="feature">
+                <h2>Featured Products</h2>
+                <div class="grid">
+                    <a href="./product_display.html">
+                        <div class="product-card">
+                            <img src="./images/shoes.jpg" alt="Avatar" style="width:100%">
+                            <div class="container">
+                                <h4><b>Shoes</b></h4> 
+                                <p>A pair of shoes</p> 
+                            </div>
+                        </div>
+                    </a>
+                    <a href="./product_display.html">
+                        <div class="product-card">
+                            <img src="./images/airpods.jpg" alt="Avatar" style="width:100%">
+                            <div class="container">
+                                <h4><b>Apple</b></h4> 
+                                <p>Custom airpods</p> 
+                            </div>
+                        </div>
+                    </a>
+                    <a href="./product_display.html">
+                        <div class="product-card">
+                            <img src="./images/dress.jpg" alt="Avatar" style="width:100%">
+                            <div class="container">
+                                <h4><b>Dress</b></h4> 
+                                <p>A beautiful dress</p> 
+                            </div>
+                        </div>
+                    </a>
+                    <div class="product-card">
+                        <img src="./images/headphone.jpg" alt="Avatar" style="width:100%">
+                        <div class="container">
+                            <h4><b>Headphone</b></h4> 
+                            <p>Headphone</p> 
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <img src="./images/jeans.jpg" alt="Avatar" style="width:100%">
+                        <div class="container">
+                            <h4><b>Jeans</b></h4> 
+                            <p>A pair of jeans</p> 
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <img src="./images/tshirt.jpg" alt="Avatar" style="width:100%">
+                        <div class="container">
+                            <h4><b>T-Shirt</b></h4> 
+                            <p>A black t-shirt/p> 
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="sale">
+                <h2>On Sale</h2>
+                <div class="grid">
+                    <div class="product-card">
+                        <img src="./images/shoes.jpg" alt="Avatar" style="width:100%">
+                        <div class="container">
+                            <h4><b>Shoes</b></h4> 
+                            <p>A pair of shoes</p> 
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <img src="./images/airpods.jpg" alt="Avatar" style="width:100%">
+                        <div class="container">
+                            <h4><b>Apple</b></h4> 
+                            <p>Custom airpods</p> 
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <img src="./images/dress.jpg" alt="Avatar" style="width:100%">
+                        <div class="container">
+                            <h4><b>Dress</b></h4> 
+                            <p>A beautiful dress</p> 
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <img src="./images/headphone.jpg" alt="Avatar" style="width:100%">
+                        <div class="container">
+                            <h4><b>Headphone</b></h4> 
+                            <p>Headphone</p> 
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <img src="./images/jeans.jpg" alt="Avatar" style="width:100%">
+                        <div class="container">
+                            <h4><b>Jeans</b></h4> 
+                            <p>A pair of jeans</p> 
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <img src="./images/tshirt.jpg" alt="Avatar" style="width:100%">
+                        <div class="container">
+                            <h4><b>T-Shirt</b></h4> 
+                            <p>A black t-shirt/p> 
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="category">
+                <h2>Categories</h2>
+                <div class="grid">
+                    <div class="product-card">
+                        <img src="./images/shoes.jpg" alt="Avatar" style="width:100%">
+                        <div class="container">
+                            <h4><b>Shoes</b></h4> 
+                            <p>A pair of shoes</p> 
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <img src="./images/airpods.jpg" alt="Avatar" style="width:100%">
+                        <div class="container">
+                            <h4><b>Apple</b></h4> 
+                            <p>Custom airpods</p> 
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <img src="./images/dress.jpg" alt="Avatar" style="width:100%">
+                        <div class="container">
+                            <h4><b>Dress</b></h4> 
+                            <p>A beautiful dress</p> 
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <img src="./images/headphone.jpg" alt="Avatar" style="width:100%">
+                        <div class="container">
+                            <h4><b>Headphone</b></h4> 
+                            <p>Headphone</p> 
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <img src="./images/jeans.jpg" alt="Avatar" style="width:100%">
+                        <div class="container">
+                            <h4><b>Jeans</b></h4> 
+                            <p>A pair of jeans</p> 
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <img src="./images/tshirt.jpg" alt="Avatar" style="width:100%">
+                        <div class="container">
+                            <h4><b>T-Shirt</b></h4> 
+                            <p>A black t-shirt/p> 
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="for-you">
+                <h2>Just For You</h2>
+                <div class="grid">
+                    <div class="product-card">
+                        <img src="./images/shoes.jpg" alt="Avatar" style="width:100%">
+                        <div class="container">
+                            <h4><b>Shoes</b></h4> 
+                            <p>A pair of shoes</p> 
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <img src="./images/airpods.jpg" alt="Avatar" style="width:100%">
+                        <div class="container">
+                            <h4><b>Apple</b></h4> 
+                            <p>Custom airpods</p> 
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <img src="./images/dress.jpg" alt="Avatar" style="width:100%">
+                        <div class="container">
+                            <h4><b>Dress</b></h4> 
+                            <p>A beautiful dress</p> 
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <img src="./images/headphone.jpg" alt="Avatar" style="width:100%">
+                        <div class="container">
+                            <h4><b>Headphone</b></h4> 
+                            <p>Headphone</p> 
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <img src="./images/jeans.jpg" alt="Avatar" style="width:100%">
+                        <div class="container">
+                            <h4><b>Jeans</b></h4> 
+                            <p>A pair of jeans</p> 
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <img src="./images/tshirt.jpg" alt="Avatar" style="width:100%">
+                        <div class="container">
+                            <h4><b>T-Shirt</b></h4> 
+                            <p>A black t-shirt/p> 
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="footer-col">
+                <h3>About Us</h3>
+                <a href="#">About Sastodeal</a>
+                <a href="#">Careers</a>
+            </div>
+            <div class="footer-col">
+                <h3>Information</h3>
+                <a href="#">FAQ</a>
+                <a href="#">Return & Refund Policy</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms & Conditions</a>
+            </div>
+            <div class="footer-col">
+                <h3>Follow Us</h3>
+                <a href="#"><i class="fa-brands fa-facebook"></i>Facebook</a>
+                <a href="#"><i class="fa-brands fa-instagram"></i>Instagram</a>
+                <a href="#"><i class="fa-brands fa-youtube"></i>Youtube</a>
+            </div>
+            <div class="footer-col">
+                <h3>Customer Support</h3>
+                <a href="#">support@sastodeal.com</a>
+                <a href="#">01-XXXXXXX</a>
+            </div>
+        </div>
+        <hr>
+        <div class="copyright">
+            &copy; Copyright, <a href="#">sastodeal.com</a>
+        </div>
+    </footer>
+</body>
+
+</html>
